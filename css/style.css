@@ -9682,7 +9682,14 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
-  #home-section {
-      padding-top: 0%; /* Adjust the top padding as needed */
+    .slider-item {
+      height: 10vh; /* Adjust the height as needed */
+      padding: 80px; /* Add padding for better spacing */
   }
+  
+  .slider-item .container {
+      max-width: 100%; /* Ensure the container stretches to full width */
+  }
+  
+  
   
