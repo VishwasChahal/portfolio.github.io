@@ -9682,4 +9682,7 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+  #home-section {
+      padding-top: 0%; /* Adjust the top padding as needed */
+  }
   
