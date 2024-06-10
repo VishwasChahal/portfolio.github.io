@@ -275,3 +275,21 @@
 
 })(jQuery);
 
+particlesJS('particles-js', {
+    particles: {
+        number: { value: 100 },
+        color: { value: '#ffffff' },
+        shape: { type: 'circle' },
+        opacity: { value: 0.5 },
+        size: { value: 3 },
+        line_linked: { enable: true, color: '#ffffff' },
+        move: { enable: true, speed: 2 }
+    },
+    interactivity: {
+        events: {
+            onhover: { enable: true, mode: 'repulse' },
+            onclick: { enable: true, mode: 'push' } // Enable particle generation and connection on click
+        }
+    },
+    retina_detect: true
+});
